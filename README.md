@@ -73,3 +73,5 @@ $T(n) = 3^{log_{3}(n)}T(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4(log_{3}(n)
 Simplified further
 
 $T(n) = 3^{log_{3}(n)}T(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4log_{3}(n)-4}} + \frac{n^{5}}{3^{4log_{3}(n)-8}} + ... + n^{5}$
+
+$=nT(1) + \frac{n^{5}{(n^{4}*3^{-4})} + $
