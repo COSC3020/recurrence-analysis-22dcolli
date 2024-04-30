@@ -70,3 +70,6 @@ Using that knowledge we now have:
 
 $T(n) = 3^{log_{3}(n)}(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4(log_{3}(n)-1)}} + \frac{n^{5}}{3^{4(log_{3}(n)-2)}} + ... + n^{5}$
 
+Simplified further
+
+$T(n) = 3^{i}(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4log_{3}(n)-4}} + \frac{n^{5}}{3^{4log_{3}(n)-8}} + ... + n^{5}$
