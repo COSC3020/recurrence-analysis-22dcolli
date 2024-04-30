@@ -45,4 +45,4 @@ $3T(\frac{n}{3}) + n ^ {5}$ (as stated before)
 
 The goal now is to establish a pattern, here substitution will be used:
 
-Starting with $T(n) = 1$ for $n \le 1$
+Starting with $T(n) = 3T(\frac{n}{3}) + n ^ {5}$
