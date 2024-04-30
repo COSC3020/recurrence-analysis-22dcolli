@@ -34,3 +34,7 @@ might help with the notation for mathematical expressions.
 
 ANSWER:
 First we start by analyzing the structure of the code to gain information. Starting with the first if else statement, the if portion checks for the base case whilst the else portion contains nested for loops. Looking at the number of times we have to loop, those being the $n* n$ , $n$ , and $n*n$ from the three for loops we can combine that into an easy $n^{5}$. We also see that the mystery function $mystery(\frac{n}{3})$ will result in 3 calls with $n / 3$. With this information the result is $3T(\frac{n}{3}) + n ^ {5}$ where we see the $3T(\frac{n}{3})$ portion come from $mystery(\frac{n}{3})$ and the $n^{5}$ from the for loops.
+
+Working through the problem we assume:
+$T(n) = 1$ for $n \le 1$ (the base case from the if statement)
+
