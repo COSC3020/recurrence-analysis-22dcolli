@@ -59,3 +59,8 @@ $=9(3T(\frac{n}{27}) + (\frac{n^{5}}{9})) + n^{5} + \frac{n^{5}}{3^{4}}$
 combining
 
 $=27T(\frac{n}{27}) + n^{5} + \frac{n^{5}}{3^{4}}+ \frac{n^{5}}{9^{4}}$
+
+With this we have gathered enough information to know the occuring pattern:
+
+$T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
+
