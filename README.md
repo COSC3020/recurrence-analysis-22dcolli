@@ -68,5 +68,5 @@ $i$ needs to make it so the base case is reached, meaning here, that we assume $
 
 Using that knowledge we now have:
 
-$T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
+$T(n) = 3^{log_{3}(n)}(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4(log_{3}(n)-1)}} + \frac{n^{5}}{3^{4(log_{3}(n)-2)}} + ... + n^{5}$
 
