@@ -47,4 +47,9 @@ The goal now is to establish a pattern, here substitution will be used:
 
 Starting with $T(n) = 3T(\frac{n}{3}) + n ^ {5}$
 
-$3(3T(\frac{n}{9})+(\frac{n}{3})^{5})+n^{5}$
+
+$=3(3T(\frac{n}{9})+(\frac{n}{3})^{5})+n^{5}$
+
+combining
+
+$=9T(\frac{n}{9}) + n^{5} + 3(\frac{n}{3})^{5}$
