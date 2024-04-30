@@ -64,5 +64,9 @@ With this we have gathered enough information to know the occuring pattern:
 
 $T(n) = 3^{i}(\frac{n}{3^{i}}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
 
-$i$ needs to make it so the base case is reached, meaning here, that we assume $i$ will be $log_{3}(n)$
+$i$ needs to make it so the base case is reached, meaning here, that we assume $i$ will be $log_{3}(n)$.
+
+Using that knowledge we now have:
+
+$T(n) = 3^{log_{3}(n)}(\frac{n}{3^{log_{3}(n)}) + \frac{n^{5}}{3^{4(i-1)}} + \frac{n^{5}}{3^{4(i-2)}} + ... + n^{5}$
 
