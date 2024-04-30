@@ -33,4 +33,4 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 ANSWER:
-First we start by analyzing the structure of the code to gain information. Starting with the first if else statement, the if portion checks for the base case whilst the else portion contains nested for loops. Looking at the number of times we have to loop, those being the $n * n$,$n$, and $n * n$ from the three for loops we can combine that into an easy $n^{5}$
+First we start by analyzing the structure of the code to gain information. Starting with the first if else statement, the if portion checks for the base case whilst the else portion contains nested for loops. Looking at the number of times we have to loop, those being the $n* n$ , $n$ , and $n*n$ from the three for loops we can combine that into an easy $n^{5}$
