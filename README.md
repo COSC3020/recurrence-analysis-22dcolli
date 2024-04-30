@@ -77,3 +77,5 @@ $T(n) = 3^{log_{3}(n)}T(\frac{n}{3^{log_{3}(n)}}) + \frac{n^{5}}{3^{4log_{3}(n)-
 $=nT(1) + \frac{n^{5}}{(n^{4}*3^{-4})} + \frac{n^{5}}{(n^{4}*3^{-8})} +...+n^{5}$
 
 $=n+(3^{4}*n)+(3^{8}*n)+...+n^{5}$
+
+From this we observe that of the $n$ terms, $n^5$ is the most prevalent meaning the bound for $O$ is $n^{5}$, or $O(n^{5})$
